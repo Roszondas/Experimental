@@ -1,7 +1,5 @@
 ﻿#include "Specie.h"
 
-//SVN test
-
 CSpecie::CSpecie(int &init)
 {
 	memcpy(&GeneticInfo, &init, 10);

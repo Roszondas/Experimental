@@ -4,4 +4,4 @@
 #include <cstdlib>
 #include <ctime>
 
-//#define DEBUG
+#define DEBUG

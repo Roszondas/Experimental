@@ -4,12 +4,11 @@
 #endif
 
 #include "Specie.h"
-#include <locale.h>
+
 int main()
 {
-	setlocale(LC_ALL, "");
-	//И все же... Эксперименты с кодировкой.
-	printf("Start project. Проверка\n");
+	printf("Start project.\n");
 	_getch();
+	printf("Closing project.\n");
 	return 0;
 }
