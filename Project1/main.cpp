@@ -1,13 +1,15 @@
-#ifndef HEADERS_H
+﻿#ifndef HEADERS_H
 	#include "Headers.h"
 #define HEADERS_H
 #endif
 
 #include "Specie.h"
-
+#include <locale.h>
 int main()
 {
-	printf("Start project.\n");
+	setlocale(LC_ALL, "");
+	//И все же... Эксперименты с кодировкой.
+	printf("Start project. Проверка\n");
 	_getch();
 	return 0;
 }
