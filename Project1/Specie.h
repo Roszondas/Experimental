@@ -8,13 +8,13 @@ class CSpecie
 private:
 	int GeneticInfo[10];
 public:
-	CSpecie();						// Создание особи со случайными параметрами
-	CSpecie(int &init);				// Создание особи с заданными параметрами
+	CSpecie();						// Creating specie with random parameters
+	CSpecie(int &init);				// Creating specie with predefined parameters
 	~CSpecie();
 
-	CSpecie(CSpecie &partner_a, CSpecie &partner_b);	// Создание особи путем спаривания
+	CSpecie(CSpecie &partner_a, CSpecie &partner_b);	// Creating specie by breeding
 
-	CSpecie Breed(CSpecie partner); // Отдельный метод спаривания. Возможно не пригодится.
+	CSpecie Breed(CSpecie partner); // Ceparate breeding method for test reasons
 	
 	int test;
 };
