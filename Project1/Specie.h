@@ -12,9 +12,10 @@ public:
 	CSpecie(int &init);		// Creating specie with predefined parameters
 	~CSpecie();
 
-	CSpecie(CSpecie &partner_a, CSpecie &partner_b);	// Creating specie by breeding
+	CSpecie(CSpecie *partner_a, CSpecie *partner_b);	// Creating specie by breeding
+	//CSpecie Breed(CSpecie partner);		// Separate breeding method for test reasons
+	int ChkFirst();		// Debug test method
 
-	CSpecie Breed(CSpecie partner);		// Separate breeding method for test reasons
 
 	int test;
 };
